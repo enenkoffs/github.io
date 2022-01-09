@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+header {
+    background-color: #f7f6f4;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    background-color: #eae5e2;
+    text-align: center;
+    padding: 20px 0;
+}
+nav a {
+    display: inline-block;
+    color: #000f47;
+    text-decoration: none;
+    font-style: italic;
+    margin: 0 12px;
+}
+.share {
+    color: #c00c00;
+}
+.share span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #c00c00;
+    color: #fff;
+    font-style: normal;
+    font-size: 0.8em;
+    vertical-align: center;
+}
+.intro {
+    background-color: #eae5e2;
+    padding: 40px 0;
+}
+.intro h1 {
+    text-align: center;
+    color: #7a6a53;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 85px;
+}
+.intro figure {
+    margin: 30px auto 40px;
+    text-align: center;
+}
+.intro-text a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #a29ba3;
+}
+.intro-text p {
+    color: #a29ba3;
+    font-style: italic;
+}
+.intro-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.intro h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.adv table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 50px;
+}
+.adv th {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.adv td {
+    color: #b71307;
+    font-style: italic;
+    font-size: 20px;
+    width: 33%;
+}
+.about {
+    background-color: #f6f6f6;
+    padding: 20px 0;
+}
+.about-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.about-inner p {
+    margin-bottom: 20px;
+}
+.about-inner .btn-box a {
+    color: #647495;
+    display: inline-block;
+    margin-left: 10px;
+}
+.about-inner .btn-box {
+    text-align: right;
+}
+.about-inner h3 {
+    color: #647495;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-inner h3 span {
+    display: block;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.statistic table {
+    width: 100%;
+}
+.statistic table td {
+    width: 20%;
+}
+.statistic .cell-1 {
+    background-color: #d6d9e0;
+    padding: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.statistic td:not(.cell-1) {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.statistic td:not(.cell-1) strong {
+    display: block;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+.statistic .cell-2 {
+    background-color: #96ae98;
+}
+.statistic .cell-3 {
+    background-color: #d9a38b;
+}
+.statistic .cell-4 {
+    background-color: #d0b16e;
+}
+.statistic .cell-5 {
+    background-color: #77798e;
+}
+.steps {
+    background-color: #ffeded;
+}
+.steps>div {
+    background-color: #f1d3d3;
+    width: 50%;
+    padding: 30px;
+}
+.steps>div+div {
+    margin-top: -40px;
+}
+.steps p {
+    font-style: italic;
+}
+.steps h3 {
+    font-family: sans-serif;
+    border-bottom: 1px solid currentColor;
+    font-size: 24px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.steps span {
+    color: #eca8a7;
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.step2,
+.step4 {
+    margin-left: auto;
+}
+footer {
+    background-color: #d6d9e0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    font-family: sans-serif;
+}
+.modal h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.modal-box {
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #000;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    padding: 60px 100px;
+}
+.modal label {
+    cursor: pointer;
+}
+.modal .field {
+    margin-bottom: 40px;
+}
+.modal .field button {
+    display: inline-block;
+    height: 40px;
+    padding: 0 60px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #8B2BE3;
+    border: none;
+}
+.modal .field > input {
+    width: 100%;
+    border: none;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
