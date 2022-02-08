@@ -200,6 +200,7 @@ footer {
     height: 100%;
     background-color: rgba(0,0,0,0.5);
     font-family: sans-serif;
+    display: none;
 }
 .modal h3 {
     text-transform: uppercase;
